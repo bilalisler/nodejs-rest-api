@@ -12,6 +12,8 @@ This example shows how to implement a simple REST API using Node.js. The API has
 
 node server.js
 
+endpoint: localhost:4000
+
 ## Test
 
 #### GET /

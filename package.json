@@ -3,13 +3,22 @@
   "version": "1.0.0",
   "description": "Example of Node.js REST API on Docker",
   "author": "Petteri Kivimäki <dinky_jackson@hotmail.com.com>",
-  "main": "server.js",
+  "main": "src/server.js",
   "license": "MIT",
   "repository": "https://github.com/petkivim/nodejs-rest-api-example.git",
   "scripts": {
-    "start": "node server.js"
+    "start": "node src/server.js"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "request": ">= 0.0.1",
+    "mocha": ">= 0.0.1",
+    "chai": ">= 0.0.1",
+    "phantom": ">= 0.0.1"
   }
 }
